@@ -1,0 +1,231 @@
+@charset "utf-8";
+/* CSS Document */
+.loginbg{
+	background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+	overflow:hidden;
+	}
+#loginbgl{
+	overflow: hidden;
+	background-size: cover;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	display: block;
+	left:0; top:0;
+	opacity:0.2;
+	}
+#canvas-club{
+	position: absolute; 
+	top: 0px; left: 0px; 
+	opacity: 0.58;
+	}
+.loginbg #container{
+	width:378px; margin:10% auto;
+	position:relative; z-index: 2;
+    border-radius:5px;
+	}
+.logo{
+	font-family:"方正兰亭超细黑简体", Fixedsys; width:166px; height:58px; margin:0 auto
+	}
+.lg{
+	position: relative;
+    z-index: 2;
+    letter-spacing: -0.17em;
+    display: inline-block;
+    width: 170px;
+    color: #fdfff7;
+    top: 2px;
+	}
+.lg em{
+    display: inline-block;
+    padding-right: 3px;
+        }
+.lg em:nth-child(1){
+	font-size:28px; color:#000;
+	}
+.lg em:nth-child(2){
+	font-size:22px; color:#F00; transform: rotate(-3deg);
+	}
+.lg em:nth-child(3){
+	font-size:22px; color:#000; transform: rotate(-8deg);
+	}
+.lg em:nth-child(4){
+	font-size:28px; color:#30F; transform: rotate(-5deg);
+	}
+.lg em:nth-child(5){
+	font-size:24px; color:#30F
+	}
+.logo em:nth-child(6){
+	font-size:28px; color:#30F
+	}
+.logo em:nth-child(7){
+	font-size:28px; color:#30F; transform: rotate(-5deg);
+	}
+.lg em:nth-child(8){
+	font-size:26px; color:#06F; transform: rotate(10deg);
+	}
+.logo em:nth-child(9){
+	font-size:28px; color:#30F
+	}
+.logo em:nth-child(10){
+	font-size:28px; color:#6CC
+	}
+.lg span{
+	color:#000; font-size:16px; font-weight:300;  letter-spacing:4px; margin-left:15px;
+	}
+.fa{
+	color:#F00;
+	}
+.content{
+	height:200px; padding:60px 48px;
+	}
+.zhmmk input, #registerform .zhmmk input{
+	width: 264px;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 15px;
+    font-size: 12px;
+    background: rgba(3,3,3,0.48);
+    border: 1px solid rgba(33,33,33,0.5);
+    color: #f9f9f9;
+}
+#loginbtn{
+	width: 282px;
+    height: 40px;
+    line-height: 40px;
+    background: rgba(3,3,3,0.48);
+    display: block;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    transition: all 0.3s ease;
+	font-weight:800;
+	margin-top:50px;
+	}
+#loginbtn:hover{
+	background: #666;
+	}
+.rests .fa{
+	font-size:13px; color:#FFF; float:left; letter-spacing:3px; font-weight:800;
+	}
+.rests .fa:nth-child(2){
+	float:right
+	}
+.rests .fa:hover{
+	color:#3FC;
+	}
+@-webkit-keyframes admin3{
+0% {
+    opacity: 0;
+    transform: translateY(-2000px);
+}
+60% {
+    opacity: 1;
+    transform: translateY(30px);
+}
+80% {
+    transform: translateY(-10px);
+}
+100% {
+    transform: translateY(0)
+}
+}
+#find .portait{
+	-webkit-animation:admin3 1.5s both;
+	}
+@-webkit-keyframes admin{
+	0% {
+    opacity: 0;
+    transform: translateX(-2000px);
+    }
+    60% {
+    opacity: 1;
+    transform: translateX(30px);
+    }
+    80% {
+    transform: translateX(-10px);
+    }
+    100% {
+    transform: translateX(0);
+    }
+	}	
+.left{
+	-webkit-animation:admin 1.5s both;
+    -moz-animation:admin 1.5s both;
+    -ms-animation:admin 1.5s both;
+    -o-animation:admin 1.5s both;
+	}
+@-webkit-keyframes admin1{
+	0% {
+    opacity: 0;
+    transform: translateX(2000px);
+    }
+    60% {
+    opacity: 1;
+    transform: translateX(-30px);
+    }
+    80% {
+    transform: translateX(10px);
+    }
+    100% {
+    transform: translateX(0);
+    }
+.right{
+	-webkit-animation:admin1 1.5s both;
+    -moz-animation:admin1 1.5s both;
+    -ms-animation:admin1 1.5s both;
+    -o-animation:admin1 1.5s both;
+	}
+@-webkit-keyframes admin2{
+0% {
+    opacity: 0;
+    transform: translateY(2000px);
+}
+60% {
+    opacity: 1;
+    transform: translateY(-30px);
+}
+80% {
+    transform: translateY(10px);
+}
+
+100% {
+    transform: translateY(0);
+}
+	}
+#registerform .top{
+	-webkit-animation:admin2 1.6s both;
+    -moz-animation:admin2 1.6s both;
+    -ms-animation:admin2 1.6s both;
+    -o-animation:admin2 1.6s both;
+	}
+
+@-webkit-keyframes admin4{
+0% {
+    opacity: 0;
+    transform: translateX(2000px);
+}
+60% {
+    opacity: 1;
+    transform: translateX(-30px);
+}
+80% {
+    transform: translateX(10px);
+}
+100% {
+    transform: translateX(0);
+}
+}
+#Find .crosswise{
+	-webkit-animation:admin 1.5s both;
+    -moz-animation:admin 1.5s both;
+    -ms-animation:admin 1.5s both;
+    -o-animation:admin 1.5s both;
+	}
